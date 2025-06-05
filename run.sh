@@ -1,0 +1,1 @@
+mpirun -np 16 python run.py     --outDir ./output/      --output debug  2>&1 | tee ./output/debug/output.out
